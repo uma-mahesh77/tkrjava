@@ -12,7 +12,7 @@ public class CreateTableExample {
 	                "jdbc:mysql://localhost:3306/new", "root", "1234");
 
 	            Statement stmt = con.createStatement();
-	            String sql = "CREATE TABLE childrens (" +
+	            String sql = "CREATE TABLE students (" +
 	                         "id INT PRIMARY KEY AUTO_INCREMENT, " +
 	                         "name VARCHAR(50), " +
 	                         "age INT)";
